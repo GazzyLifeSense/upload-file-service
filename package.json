@@ -1,0 +1,17 @@
+{
+  "name": "upload-file-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "pkg index.js -t node10-win-x64 -o app10.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "multer": "1.4.5-lts.1"
+  }
+}
