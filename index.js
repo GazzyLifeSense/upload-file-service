@@ -6,7 +6,6 @@ const os = require('os');
  
 const username = os.userInfo().username;
 const app = express();
-app.use(express.static(path.join(__dirname, './public')));
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
